@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { ActivatedRoute,  Router } from '@angular/router';
 import { PublicationserviceService } from '../publicationservice.service';
 import { IDropdownSettings } from 'ng-multiselect-dropdown';
 

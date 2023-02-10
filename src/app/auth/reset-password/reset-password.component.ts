@@ -3,8 +3,6 @@ import { FormControl, FormGroup, Validators } from "@angular/forms";
 import { Router } from "@angular/router";
 import Swal from "sweetalert2";
 import { AuthService } from "../../auth.service";
-import { EncryptionService } from "encrypt-webstorage";
-import * as CryptoJS from 'crypto-js';
 import { EncryptionServiceService } from 'src/app/encryption-service.service';
 
 @Component({

@@ -19,7 +19,6 @@ import { ProfileComponent } from './profile/profile.component';
 import { NgMultiSelectDropDownModule } from "ng-multiselect-dropdown";
 import { GoogleMapsModule } from "@angular/google-maps";
 import { CommonModule } from "@angular/common";
-import { JwPaginationComponent } from 'jw-angular-pagination';
 import { LoginRegisterComponent } from './auth/login-register/login-register.component';
 import { ResetComponent } from './auth/reset/reset.component';
 import { ResetPasswordComponent } from './auth/reset-password/reset-password.component';

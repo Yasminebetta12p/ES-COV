@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from "../user.service";
 import { ActivatedRoute, Router } from "@angular/router";
-import { FormControl, FormGroup, Validators } from "@angular/forms";
 import { User } from "./User";
-import { Publication } from "./Publication";
 import { PublicationserviceService } from '../publicationservice.service';
 import Swal from 'sweetalert2';
 import { NgxSpinnerService } from "ngx-spinner";

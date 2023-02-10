@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree } from '@angular/router';
-import { EncryptionService } from 'encrypt-webstorage';
 import { Observable } from 'rxjs';
-import * as CryptoJS from 'crypto-js';
 import { EncryptionServiceService } from './encryption-service.service';
 
 @Injectable({
